@@ -19,7 +19,16 @@
     display: table;
 }
 
-/* organizzazione dati */
+.left {
+    float: left;
+}
+
+.link {
+    color: var(--link);
+}
+
+/* principali  */
+
 body {
     background-color: var(--textw);
 
@@ -44,7 +53,7 @@ h1 {
     padding-top: 2rem;
     text-align: center;
     font-style: italic;
-    
+
 }
 
 .information {
@@ -54,7 +63,8 @@ h1 {
     padding-top: 15px;
 }
 
-.box{
+/* dati delle box */
+.box {
     background-color: var(--bgbox);
     text-align: left;
     width: calc(100% / 3);
@@ -65,19 +75,11 @@ h1 {
     width: calc(100% / 3 - 40px);
 }
 
-img { 
+img {
     color: var(--textw);
     float: left;
     object-position: left;
     object-fit: contain;
     width: 100px;
     margin-right: 10px;
- }
-
-.left {
-    float: left;
-}
-
-.link{
-color:var(--link);
 }
