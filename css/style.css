@@ -59,12 +59,10 @@ h1 {
 }
 
 .box{
-    
-    background-color: var(--bgbox);
     background-color: var(--bgbox);
     text-align: left;
     vertical-align: center;
-
+    width: 40%;
 }
 
 img { 
