@@ -54,6 +54,10 @@ h1 {
 
 .information {
     color: var(--textw);
+    font-size: 0.8rem;
+    vertical-align: middle;
+    padding-top: 10px;
+
 
 }
 
@@ -66,8 +70,9 @@ h1 {
 }
 
 .boxcentrale{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% / 3 -10px);
 }
 
 img { 
@@ -75,7 +80,7 @@ img {
     float: left;
     object-position: left;
     object-fit: contain;
-    width: 90px;
+    width: 100px;
  }
 
 .left {
