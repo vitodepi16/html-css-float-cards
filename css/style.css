@@ -23,10 +23,6 @@
     float: left;
 }
 
-.link {
-    color: var(--link);
-}
-
 /* principali  */
 
 body {
@@ -64,6 +60,7 @@ h1 {
 }
 
 /* dati delle box */
+
 .box {
     background-color: var(--bgbox);
     text-align: left;
@@ -82,4 +79,8 @@ img {
     object-fit: contain;
     width: 100px;
     margin-right: 10px;
+}
+
+.link{
+    color: var(--link);
 }
