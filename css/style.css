@@ -1,9 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-style: ;
+    font-family: 'Fredoka One', cursive;
 }
 
-body{
-    background-color: black;
+:root {
+    --title: #E74272;
+    --bgbox: #000000;
+    --link: #03aaf7;
+    --textw: #ffffff;
+}
+
+body {
+    background-color: var(--textw);
+
+}
+
+.conteiner {
+    width: 80%;
+    margin: auto;
+
+}
+
+h1 {
+    color: var(--title);
+    text-align: center;
+    padding-top: 2.5rem;
 }
