@@ -47,11 +47,6 @@ h1 {
     
 }
 
-.worker{
-    padding-left: 2rem;
-    padding-top: 2rem;
-}
-
 .information {
     color: var(--textw);
     font-size: 0.8rem;
@@ -62,16 +57,12 @@ h1 {
 .box{
     background-color: var(--bgbox);
     text-align: left;
-    vertical-align: center;
     width: calc(100% / 3);
-    margin-top: 20PX;
-
-}
-
-.boxcentrale{
-    margin-left: 5px;
-    margin-right: 5px;
-    width: calc(100% / 3 - 10px);
+    margin-top: 40PX;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% / 3 - 40px);
 }
 
 img { 
