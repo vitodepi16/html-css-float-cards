@@ -14,6 +14,12 @@
     --textw: #ffffff;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* organizzazione dati */
 body {
     background-color: var(--textw);
@@ -44,29 +50,31 @@ h1 {
 
 .worker {
     padding-left: 2rem;
-    padding-top: 3rem;
-}
+    padprova
 
 .information {
     color: var(--textw);
+
 }
 
-.box,
-img {
+.box::after{
+    content: "";
     background-color: var(--bgbox);
-    width: 160px;
-    height: 50px;
+    background-color: var(--bgbox);
+    text-align: left;
+    vertical-align: center;
+    padding-left: 1rem;
+}
+
+img { 
     color: var(--textw);
     float: left;
-}
-
-.img {
     object-position: left;
     object-fit: contain;
-    float: left;
-
-}
+    width: 90px;
+ }
 
 .left {
     float: left;
 }
+
