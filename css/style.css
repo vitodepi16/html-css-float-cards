@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka', sans-serif;
 }
 
 :root {
@@ -56,9 +56,7 @@ h1 {
     color: var(--textw);
     font-size: 0.8rem;
     vertical-align: middle;
-    padding-top: 10px;
-
-
+    padding-top: 15px;
 }
 
 .box{
@@ -82,9 +80,13 @@ img {
     object-position: left;
     object-fit: contain;
     width: 100px;
+    margin-right: 10px;
  }
 
 .left {
     float: left;
 }
 
+.link{
+color:var(--link);
+}
