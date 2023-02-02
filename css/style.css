@@ -66,13 +66,14 @@ h1 {
     text-align: left;
     vertical-align: center;
     width: calc(100% / 3);
+    margin-top: 20PX;
 
 }
 
 .boxcentrale{
     margin-left: 5px;
     margin-right: 5px;
-    width: calc(100% / 3 -10px);
+    width: calc(100% / 3 - 10px);
 }
 
 img { 
