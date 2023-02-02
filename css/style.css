@@ -45,25 +45,26 @@ h1 {
     padding-top: 2rem;
     text-align: center;
     font-style: italic;
-    f
+    
 }
 
-.worker {
+.worker{
     padding-left: 2rem;
-    padprova
+    padding-bottom: 10px;
+}
 
 .information {
     color: var(--textw);
 
 }
 
-.box::after{
-    content: "";
+.box{
+    
     background-color: var(--bgbox);
     background-color: var(--bgbox);
     text-align: left;
     vertical-align: center;
-    padding-left: 1rem;
+
 }
 
 img { 
